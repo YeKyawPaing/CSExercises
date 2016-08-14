@@ -19,14 +19,13 @@ namespace CSExercises
 
         public static void Main(string[] args)
         {
-            //YOUR CODE HERE
+           
 
         }
 
-        public static double CalculateArea(double a, double b, double c)
+        /*public static string CalculateArea(double a, double b, double c)
         {
-            //YOUR CODE HERE
-            return 0;
-        }
+           
+        }*/
     }
 }

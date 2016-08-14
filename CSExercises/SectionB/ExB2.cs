@@ -20,14 +20,17 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            //YOUR CODE HERE
+            Console.WriteLine("Please enter an integer");
+            string str = Console.ReadLine();
+            double d = Convert.ToDouble(str);
+            Console.WriteLine("{0:#.###}", SQRT(d));
         }
 
-        public static string SQRT(double x)
+        public static double SQRT(double d2)
         {
-            //YOUR CODE HERE: return the square root of x and then use String.Format 
-            //to format it. The format is similar to WriteLine
-            return null;
+            d2 = Math.Sqrt(d2);
+            double d3 = Math.Round(d2, 3);
+            return d3;
 
         }
     }

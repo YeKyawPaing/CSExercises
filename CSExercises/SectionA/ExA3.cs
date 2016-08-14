@@ -14,18 +14,18 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            string inputString = Console.ReadLine();
-            int inputInt = Convert.ToInt32(inputString);
+            Console.WriteLine("Please enter an integer");
+            string str = Console.ReadLine();
+            int i = Convert.ToInt32(str);
 
-            int result = square(inputInt);
-
+            int result = square(i);
             Console.WriteLine(result);
         }
 
         public static int square(int x)
         {
-            //PUT YOUR CODE HERE
-            return 0;
+            x = (int)Math.Pow(x, 2);
+            return x;
 
         }
     }

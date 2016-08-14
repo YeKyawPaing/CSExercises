@@ -20,10 +20,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            string inputStr = Console.ReadLine();
-            double inputDbl = Convert.ToDouble(inputStr);
+            Console.WriteLine("Please enter a double");
+            string str = Console.ReadLine();
+            double d = Convert.ToDouble(str);
 
-            //YOUR CODE HERE
+            Console.WriteLine("{0:#.##}", d);
 
         }
 
