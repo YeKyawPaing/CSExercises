@@ -16,14 +16,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            //YOUR CODE HERE
         }
 
-        public static double CalculateFare(double distance)
+        /*public static double CalculateFare(double distance)
         {
-            //YOUR CODE HERE
-            return 0;
 
-        }
+        }*/
     }
 }
